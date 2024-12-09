@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportingServiceWrapper.Proto", "ReportingServiceWrapper.Proto\ReportingServiceWrapper.Proto.csproj", "{85D30339-58EB-4F9D-8F92-0005E2281FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportingServiceWrapper", "ReportingServiceWrapper\ReportingServiceWrapper.csproj", "{0795497B-B7D1-4D76-9394-4293D9E542ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportingClientMoq", "ReportingClientMoq\ReportingClientMoq.csproj", "{FC5C0C53-2C1E-43C2-818F-F781342B78FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85D30339-58EB-4F9D-8F92-0005E2281FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D30339-58EB-4F9D-8F92-0005E2281FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D30339-58EB-4F9D-8F92-0005E2281FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D30339-58EB-4F9D-8F92-0005E2281FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0795497B-B7D1-4D76-9394-4293D9E542ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0795497B-B7D1-4D76-9394-4293D9E542ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0795497B-B7D1-4D76-9394-4293D9E542ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0795497B-B7D1-4D76-9394-4293D9E542ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC5C0C53-2C1E-43C2-818F-F781342B78FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5C0C53-2C1E-43C2-818F-F781342B78FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5C0C53-2C1E-43C2-818F-F781342B78FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5C0C53-2C1E-43C2-818F-F781342B78FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "ReportingServiceWrapper.Proto";
+
+package workerservice;
+
+service ReportingServiceWrapper {
+  rpc GetData (RequestData) returns (ResponseData);
+}
+
+message RequestData {
+  string Id = 1;
+}
+
+message ResponseData {
+  string Id = 1;
+  string Response = 2;
+}
+

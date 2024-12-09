@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-ReportingServiceWrapper-B5C36E15-5A90-4D2E-B08B-E03C7F247AEC</UserSecretsId>
+        <RootNamespace>ReportingServiceWrapper</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Grpc.AspNetCore" Version="2.66.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ReportingServiceWrapper.Proto\ReportingServiceWrapper.Proto.csproj" />
+    </ItemGroup>
+</Project>
